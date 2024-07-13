@@ -1,0 +1,35 @@
+name: bloc_pattern_with_cubit_and_freezed
+description: "This projects showcases the usage of Freezed and cubit with Bloc Pattern"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get_it: ^7.7.0
+  injectable: ^2.4.2
+  injectable_generator: ^2.6.1
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  freezed_annotation: ^2.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.11
+  freezed: ^2.5.2
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+  uses-material-design: true
